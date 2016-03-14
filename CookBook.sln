@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98243D8D-D637-43FC-8918-9A797DCAF28B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A4301E92-F53B-462E-9920-8B9E786762E1}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CookBook", "src\CookBook\CookBook.xproj", "{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{893D5FAE-4F12-4CBD-9BE1-AFA176E792F6} = {98243D8D-D637-43FC-8918-9A797DCAF28B}
+	EndGlobalSection
+EndGlobal
