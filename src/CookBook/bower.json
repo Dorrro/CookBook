@@ -1,7 +1,18 @@
 {
-  "name": "Cook Book",
+  "name": "cook book",
   "private": true,
   "dependencies": {
-    "bootstrap": "3.3.6"
+    "bootstrap": "3.3.6",
+    "jquery": "2.2.2"
+  },
+  "exportsOverride": {
+    "bootstrap": {
+      "js": "dist/js/*.*",
+      "css": "dist/css/*.*",
+      "fonts": "dist/fonts/*.*"
+    },
+    "jquery": {
+      "js": "dist/*.*"
+    }
   }
 }
