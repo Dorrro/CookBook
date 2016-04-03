@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Recipe";
+}
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Cook Book</h1>
+        <p>Drag the image here or click the button to start uploading the Recipe</p>
+        <form method="post" asp-action="Index" asp-controller="Recipe" enctype="multipart/form-data" role="form">
+            <div class="form-group">
+                <label class="btn btn-lg btn-primary" for="my-file-selector">
+                    <input id="my-file-selector" type="file" name="files" style="display: none;" multiple />
+                    Select Files...
+                </label>
+                <input class="btn btn-lg" type="submit" value="Upload!" />
+            </div>
+        </form>
+    </div>
+</div>
