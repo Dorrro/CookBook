@@ -1,9 +1,10 @@
 {
 	"version": "1.0.0",
-	"name": "cook book",
+	"name": "cookbook",
 	"private": true,
   "devDependencies": {
     "grunt": "0.4.5",
-    "grunt-bower-task": "0.4.0"
+    "grunt-bower-task": "0.4.0",
+    "tesseract.js": "1.0.0"
   }
 }

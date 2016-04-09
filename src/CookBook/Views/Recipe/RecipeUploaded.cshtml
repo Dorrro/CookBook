@@ -8,3 +8,29 @@
         <p>Hurray!!! You've successfuly uploaded recipes!</p>
     </div>
 </div>
+
+<div id="recipe"><img src="~/recipes/przepis-easy.jpg" class="to_ocr" /></div>
+
+<script src="http://tenso.rs/tesseract.js"></script>
+<script>
+
+    function show_progress(p) {
+        console.log(p);
+    }
+
+    function display(result) {
+        console.log("Mam wynik!");
+        console.log(result);
+    }
+
+    var demo = document.getElementById("recipe");
+    var img = demo.querySelector('img.to_ocr');
+
+    Tesseract
+        .recognize(img,
+        {
+            progress: show_progress,
+            lang: 'pol'
+        })
+        .then(display);
+</script>
